@@ -24982,7 +24982,7 @@ Source: VISHAY wscwsn.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="atmel" deviceset="MEGA32-P" device=""/>
+<part name="IC1" library="atmel" deviceset="MEGA32-P" device="" value="MEGA644P"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -25033,7 +25033,7 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="R14" library="rcl" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="T2" library="transistor-pnp" deviceset="BC327" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="0207/10" value="33"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="0207/10" value="NC"/>
 <part name="LCD" library="con-ml" deviceset="ML16" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
@@ -25046,7 +25046,7 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="R19" library="rcl" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
-<part name="R20" library="NetIO" deviceset="RCL_R-EU_" device="0207/2V" value="1k"/>
+<part name="R20" library="NetIO" deviceset="RCL_R-EU_" device="0207/2V" value="1,2k"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
@@ -25074,10 +25074,10 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="X1" library="trj0011" deviceset="TRJ0011" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="ISP" library="con-ml" deviceset="ML6" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="0207/2V" value="50"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="0207/2V" value="50"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="0207/2V" value="50"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="0207/2V" value="50"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="0207/2V" value="47"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="0207/2V" value="47"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="0207/2V" value="47"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="0207/2V" value="47"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0207/2V" value="220"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0207/2V" value="220"/>
 <part name="T1" library="transistor" deviceset="BC337" device=""/>
@@ -25093,11 +25093,11 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="C1" library="rcl" deviceset="C-EU" device="050-025X075" value="10nF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="050-025X075" value="10nF"/>
 <part name="R16" library="pot" deviceset="TRIM_EU-" device="PT10S" value="10k"/>
-<part name="IC9" library="v-reg" deviceset="78XXS" device="" value="LM3940"/>
-<part name="C14" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="10uF"/>
-<part name="C10" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="10uF"/>
+<part name="IC9" library="v-reg" deviceset="78XXS" device="" value="RECOM R-78E5.0-0.5"/>
+<part name="C14" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="0,47uF"/>
+<part name="C10" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="NC"/>
 <part name="C11" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="33uF"/>
-<part name="C12" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="10uF"/>
+<part name="C12" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="NC"/>
 <part name="ANT" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="1W" library="NetIO" deviceset="CON-MOLEX_22-23-2031" device="" value="1Wire"/>
 <part name="LED" library="con-molex" deviceset="22-23-2021" device="">
@@ -25107,7 +25107,7 @@ Source: VISHAY wscwsn.pdf</description>
 <attribute name="OC_NEWARK" value="25C3832"/>
 </part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="0207/2V" value="220"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="0207/2V" value="2,2k"/>
 <part name="IR2" library="con-molex" deviceset="22-23-2021" device="" value="IR">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-23-2021"/>
@@ -25217,7 +25217,10 @@ Source: VISHAY wscwsn.pdf</description>
 <instance part="EXT." gate="1" x="50.8" y="106.68" rot="R180"/>
 <instance part="P+19" gate="1" x="60.96" y="116.84"/>
 <instance part="GND21" gate="1" x="58.42" y="91.44"/>
-<instance part="IC10" gate="1" x="50.8" y="139.7"/>
+<instance part="IC10" gate="1" x="50.8" y="139.7" smashed="yes">
+<attribute name="NAME" x="50.8" y="127" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.8" y="124.46" size="1.778" layer="96"/>
+</instance>
 <instance part="X1" gate="G$1" x="208.28" y="50.8"/>
 <instance part="GND29" gate="1" x="241.3" y="27.94"/>
 <instance part="ISP" gate="1" x="88.9" y="93.98" rot="R180"/>
@@ -25260,7 +25263,10 @@ Source: VISHAY wscwsn.pdf</description>
 <instance part="C1" gate="G$1" x="144.78" y="73.66"/>
 <instance part="C2" gate="G$1" x="162.56" y="35.56"/>
 <instance part="R16" gate="1" x="160.02" y="-236.22" rot="R90"/>
-<instance part="IC9" gate="1" x="10.16" y="139.7"/>
+<instance part="IC9" gate="1" x="10.16" y="139.7" smashed="yes">
+<attribute name="NAME" x="7.62" y="127" size="1.778" layer="95"/>
+<attribute name="VALUE" x="7.62" y="124.46" size="1.778" layer="96"/>
+</instance>
 <instance part="C14" gate="G$1" x="-2.54" y="134.62"/>
 <instance part="C10" gate="G$1" x="33.02" y="134.62"/>
 <instance part="C11" gate="G$1" x="60.96" y="134.62"/>
